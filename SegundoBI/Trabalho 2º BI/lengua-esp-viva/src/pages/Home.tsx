@@ -1,10 +1,10 @@
-import "../styles/hero.css";
 import Hero from '../components/Hero'
 import Header from "../components/Header";
 import Solutions from "../components/Solutions";
 import Testemunhos from "../components/Testemunhos";
-import FAQ from "../components/Faq";
+import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
+import Planos from "../components/Planos";
 
 export default function Home() {
     return (
@@ -13,6 +13,7 @@ export default function Home() {
             <Hero />
             <Solutions />
             <Testemunhos />
+            <Planos />
             <FAQ />
             <Footer />
         </>
